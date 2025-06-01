@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background: #f4f4f4;
+}
+
+#wordDisplay {
+  font-size: 2rem;
+  margin: 1rem;
+  letter-spacing: 10px;
+}
+
+#wrongLetters, #hint, #statusMessage {
+  margin: 1rem 0;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#placar {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}

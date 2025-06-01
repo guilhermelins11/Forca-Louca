@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jogo da Forca</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Forca Louca</h1>
+  <div id="placar">
+    Vitórias: <span id="vitorias">0</span> |
+    Derrotas: <span id="derrotas">0</span>
+  </div>
+  <p id="hint">Dica: ...</p>
+  <div id="wordDisplay">_ _ _</div>
+  <div id="wrongLetters">Erros: </div>
+  <input type="text" id="letterInput" maxlength="1" placeholder="Digite uma letra" autofocus />
+  <p id="statusMessage"></p>
+  <button id="restartBtn">Jogar Novamente</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
